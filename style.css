@@ -1,0 +1,49 @@
+* {
+  background: #b5e0d5;
+}
+
+.menu {
+    text-align: right;
+    }
+
+.menu__links-item {
+    display: inline-block;
+    font-family: Impact;
+    font-size: 7px;
+    margin-top: 40px;
+    color: #808080;
+    line-height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media screen and (min-width:320px) {
+  .menu__links-item {
+    font-size: 12px;
+}
+    
+@media screen and (min-width: 481px) {
+  .menu__links-item {
+    font-size: 19px;
+}
+
+@media screen and (min-width: 641px) {
+  .menu__links-item {
+    font-size: 26px;
+}
+
+@media screen and (min-width: 961px) {
+  .menu__links-item {
+    font-size: 33px;
+}
+
+@media screen and (min-width: 1025px) {
+  .menu__links-item {
+    font-size: 41px;
+}
+
+@media screen and (min-width: 1281px) {
+  .menu__links-item {
+    font-size: 50px;
+}
